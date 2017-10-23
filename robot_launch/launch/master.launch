@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="joystick" name="joystick" type="navigator_joystick.py"/>
+    <node pkg="xbox_joy_node" name="joy_node" type="joy_node"/>
+    <include file="$(find kobuki_node)/launch/minimal.launch"/>
+</launch>

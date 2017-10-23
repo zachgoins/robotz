@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package>
+  <name>robot_launch</name>
+  <version>4.0.0</version>
+  <description>A server that controls navigator in response to the /Joy node</description>
+
+  <maintainer email="anthony@iris-systems.net">Anthony Olive</maintainer>
+
+  <license>MIT</license>
+</package>
